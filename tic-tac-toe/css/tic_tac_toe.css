@@ -1,0 +1,61 @@
+.gameboard{
+  margin : auto;
+}
+/*body{
+  background-color: #9FF9D4;
+}*/
+.header{
+  margin : auto;
+  text-align: center;
+}
+
+.par{
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+p{
+  margin : auto;
+}
+table ,th, tr{
+  border: dashed;
+  height: 120px;
+  width:  400px;
+  border-color: green;
+}
+
+.button{
+  margin-left: 40%;
+  background-color: #9FE7F9;
+
+}
+.instructions{
+  margin-left: 55%;
+  margin-top: -1%;
+}
+.anim{
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}

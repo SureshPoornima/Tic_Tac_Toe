@@ -1,0 +1,25 @@
+<!-final page for winner-->
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>Winner</title>
+			<style>
+			html,* { margin:0; padding:0}
+			body { width:100%; height:100%;}
+			.demo { margin:0 auto; width:100%; height:100%;}
+			h1 { margin:150px auto 30px auto; text-align:center; font-family:'Roboto'; }
+			</style>
+		</head>
+		<body>
+			<h1 style="black: yellow;">Congratulations</h1>
+			<div id="player"></div>
+				<div class="demo"></div>
+					
+			<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script><!-including the js file-->
+			<script src="js/jquery.fireworks.js"></script>
+			<script>
+			$('.demo').fireworks({ sound: true, opacity: 0.9, width: '100%', height: '100%' });
+			</script>
+		</body>
+	</html>

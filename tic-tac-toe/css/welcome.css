@@ -1,0 +1,15 @@
+body{
+	background-color:#41D878;/*body background color */
+}
+
+.ins{
+	color: black;/*color of the instruction texts*/
+	
+}
+p{
+	color: white;
+	font-size: 20px;
+}
+button{
+	background-color: cyan;
+}
